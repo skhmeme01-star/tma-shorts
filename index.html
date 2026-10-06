@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <title>Shorts</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="feed" class="feed" aria-label="Short video feed"></main>
+
+    <button id="close-button" class="chrome-button close-button" type="button" aria-label="Close app" hidden>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+
+    <button id="browser-share" class="browser-share" type="button" aria-label="Share current video">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 16V3m0 0L7 8m5-5 5 5M5 12v8h14v-8"/></svg>
+      <span>Share</span>
+    </button>
+
+    <noscript>This app requires JavaScript to play videos.</noscript>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="videos.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
